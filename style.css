@@ -7,7 +7,8 @@ body {
 #navbar {
     background-color: transparent;
     position: fixed;
-    color: white;
+    color: black;
+    font-weight: bold;
     text-align: left;
     align-items: center;
     position: fixed;
@@ -33,10 +34,10 @@ li last-child {
 li a {
     text-decoration: none;
     font-size: 20px;
-    color: white;
     padding: 8px;
     text-align: left;
     align-items: left;
+    color: black;
 }
 
 li a:hover {
@@ -85,7 +86,7 @@ li a:hover {
 
 .btn {
     background-color: #ffb834;
-    color:rgba(255, 255, 255, 0.836);
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -94,9 +95,9 @@ li a:hover {
     border-radius: 12px;
     align-items: center;
     text-transform: uppercase;
-    font-weight: bold;
     font-family: monospace;
     margin-left: 40px;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -214,8 +215,9 @@ h3 {
     width: 100%;
     border: none;
     background: #ffb834;
-    color: #FFF;
+    color: black;
     margin: 0 0 5px;
+    font-weight: bold;
     padding: 10px;
     font-size: 15px;
     font-family: Verdana;
@@ -291,9 +293,10 @@ h3 {
   }
   
   #footer-nav ul li a {
-    margin-left: 1.5rem;
+    margin-left: 1;
     color: #111;
     display: inline;
+    font-size: 12px;
   }
   
   .footer-copyright {
@@ -302,5 +305,6 @@ h3 {
 
   .footer-copyright p {
       margin: 0;
+      text-decoration: none;
   }
  
