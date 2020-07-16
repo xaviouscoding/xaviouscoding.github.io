@@ -26,7 +26,6 @@ li {
     margin: 0;
     padding: 0;
     display: inline;
-    padding-right: 75px;
     text-align: left;
 }
 
@@ -49,6 +48,9 @@ li a:hover {
 
 }
 
+ul {
+  padding-left: 0;
+}
 
 
 .hero-image {
@@ -56,38 +58,60 @@ li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -20px;
     
+}
+@media (min-width: 768px) {
+  .hero-image {
+    height: 100vh;
+  }
 }
  
 
 .hero-text {
-  margin-right: 1000px;
-  margin-top: 300px;
-  text-align: center;
+  text-align: left;
   color: lightgrey;
   font-size: 30px;
-  width: 80%;
+  width: 40%;
   font-family: Verdana;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
 }
 
-.hero-text p{
+@media (max-width: 768px) {
+  .hero-text {
+    padding: 10px;
+    width: 100%;  
+
+  
+  }
+
+}
+.hero-text p {
     font-size: 20px;
-    text-align: center;
-    margin-left: 100px;
-    width: 80%;
+    text-align: left;
     padding: 20px;
+    text-align: center;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
 }
 
 #logo {
-    width: auto;
-    height: 150px;
     margin-top: 50px;
     padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.logoimg {
+  width: 80%;
+  display: flex;
+  flex-shrink: 0;
+  margin: auto;
 }
 
 .btn {
@@ -102,8 +126,9 @@ li a:hover {
     align-items: center;
     text-transform: uppercase;
     font-family: monospace;
-    margin-left: 40px;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn:hover {
@@ -162,8 +187,7 @@ h3 {
   
   #contact {
     padding: 25px;
-    padding-top: -100px;
-    margin: 150px 0;
+    margin: 10px 0;
     font-family: monospace;
     text-align: center;
     
