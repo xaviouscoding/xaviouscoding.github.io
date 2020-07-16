@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif monospace Verdana, Geneva, Tahoma, sans-serif;
+    background-color:whitesmoke;
 }
 #navbar {
     background-color: transparent;
@@ -110,13 +111,15 @@ li a:hover {
     align-items: center;
     justify-content: center;
     font-family: Verdana;
-    background-color: white;
     color: black;
+    background-color: rgba(211, 211, 211, 0);
+    
 }
 
-#menu {
-    height: 80%;
-    padding-top: 20px;
+#menus {
+    padding-top: 0;
+    
+    
 }
 
 h2 {
@@ -151,6 +154,7 @@ h3 {
     margin: 150px 0;
     font-family: monospace;
     text-align: center;
+    background-color: white;
   }
   
   #contact h3 {
