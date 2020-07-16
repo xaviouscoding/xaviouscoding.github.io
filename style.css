@@ -142,14 +142,14 @@ h3 {
   #contact input[type="url"],
   #contact textarea,
   #contact button[type="submit"] {
-    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    font: 400 12px/16px;
+    font-family: monospace;
   }
   
   #contact {
-    background: white;
     padding: 25px;
     margin: 150px 0;
-    font-family: Verdana;
+    font-family: monospace;
     text-align: center;
   }
   
@@ -158,7 +158,6 @@ h3 {
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 10px;
-    font-family: Verdana;
   }
   
   #contact h4 {
@@ -166,7 +165,6 @@ h3 {
     display: block;
     font-size: 13px;
     font-weight: 400;
-    font-family: Verdana;
   }
   
   h4 {
@@ -180,7 +178,6 @@ h3 {
     min-width: 100%;
     padding: 0;
     width: 100%;
-    font-family: Verdana;
   }
   
   #contact input[type="text"],
@@ -190,10 +187,8 @@ h3 {
   #contact textarea {
     width: 100%;
     border: 1px solid #ccc;
-    background: white;
     margin: 0 0 5px;
     padding: 10px;
-    font-family: Verdana;
   }
   
   #contact input[type="text"]:hover,
@@ -205,14 +200,12 @@ h3 {
     -moz-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
     border: 1px solid #aaa;
-    font-family: Verdana;
   }
   
   #contact textarea {
     height: 100px;
     max-width: 100%;
     resize: none;
-    font-family: Verdana;
   }
   
   #contact button[type="submit"] {
@@ -225,7 +218,6 @@ h3 {
     font-weight: bold;
     padding: 10px;
     font-size: 15px;
-    font-family: Verdana;
     margin-left: 12px;
   }
   
@@ -235,12 +227,10 @@ h3 {
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
     text-decoration: underline;
-    font-family: Verdana;
   }
   
   #contact button[type="submit"]:active {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-    font-family: Verdana;
   }
   
 
@@ -249,30 +239,67 @@ h3 {
   #contact textarea:focus {
     outline: 0;
     border: 1px solid #aaa;
-    font-family: Verdana;
   }
   
   ::-webkit-input-placeholder {
     color: #888;
-    font-family: Verdana;
   }
   
   :-moz-placeholder {
     color: #888;
-    font-family: Verdana;
   }
   
   ::-moz-placeholder {
     color: #888;
-    font-family: Verdana;
   }
   
   :-ms-input-placeholder {
     color: #888;
+  }
+
+  .social a {
+    font-size: 4.5em;
+    padding: 3rem;
+  }
+
+  .fa-facebook {
+    color: #3b5998;
+    padding-bottom: 200px;
+  }
+
+  .fa-twitter {
+    color: #00aced;
+  }
+
+  .fa-google-plus-g {
+    color: #dd4b39;
+  }
+
+  .fa-instagram {
+    color: #517fa8;
+  }
+
+  .fa-youtube {
+    color: #bb0000;
+  }
+
+  .fa-facebook:hover,
+  .fa-twitter:hover,
+  .fa-google-plus-g:hover,
+  .fa-instagram:hover,
+  .fa-youtube:hover {
+    color: #d5d5d5;
+  }
+
+  #connecth {
+    text-align: center;
+    padding: 100px;
     font-family: Verdana;
   }
 
-  footer {
+
+
+   footer {
     background: #d2d2d2;
     text-align: end;
     padding: 1rem .5rem;
