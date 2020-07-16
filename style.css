@@ -4,6 +4,7 @@ body {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif monospace Verdana, Geneva, Tahoma, sans-serif;
     background-color:whitesmoke;
+
 }
 #navbar {
     background-color: transparent;
@@ -19,6 +20,13 @@ body {
     height: 50px;
     background-color:#ffb834;
 }
+
+@media screen and (max-width: 650px) {
+  #nav-bar {
+    flex-direction: column;
+  }
+}
+
 li {
     list-style-type: none;
     margin: 0;
@@ -48,6 +56,7 @@ li a:hover {
 }
 
 
+
 .hero-image {
     background-image: url("https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80");
     background-position: center;
@@ -59,6 +68,8 @@ li a:hover {
     align-items: center;
     margin-bottom: -20px;
 }
+ 
+
 
 .hero-text {
   margin-right: 1000px;
